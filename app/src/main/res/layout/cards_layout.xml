@@ -7,6 +7,7 @@
     android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewAdmin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="60dp"

@@ -1,19 +1,29 @@
 <resources>
     <string name="app_name">TheGameGym</string>
-        <string name="banano" translatable="false">Es un fruto comestible</string>
-        <string name="manzana" translatable="false">La manzana es una fruta</string>
-        <string name="pera" translatable="false">Se denomina pera al fruto </string>
-        <string name="mango" translatable="false">El mango es el nombre de </string>
-        <string name="sandia" translatable="false">Citrullus lanatus, comúnmente</string>
-        <string name="papaya" translatable="false">Carica papaya es una especie</string>
-        <string name="guagaya" translatable="false">Las guayabas son un género </string>
-        <string name="aguacate" translatable="false">Persea americana, llamado </string>
+    <string name="banano" translatable="false">Es un fruto comestible</string>
+    <string name="manzana" translatable="false">La manzana es una fruta</string>
+    <string name="pera" translatable="false">Se denomina pera al fruto </string>
+    <string name="mango" translatable="false">El mango es el nombre de </string>
+    <string name="sandia" translatable="false">Citrullus lanatus, comúnmente</string>
+    <string name="papaya" translatable="false">Carica papaya es una especie</string>
+    <string name="guagaya" translatable="false">Las guayabas son un género </string>
+    <string name="aguacate" translatable="false">Persea americana, llamado </string>
     <string name="lunes" translatable="false">PESO DE: 6</string>
     <string name="lunes1" translatable="false">PESO DE: 35 y 22.5</string>
     <string name="lunes2" translatable="false">PESO DE: 30 y 25</string>
     <string name="lunes3" translatable="false">PESO DE: 10 y 5</string>
-    <string name="lunes4" translatable="false">PESO DE: Corporal</string>
-    <string name="lunes5" translatable="false">PESO DE: Corporal</string>
+    <string name="lunes4" translatable="false">PESO: Corporal</string>
+    <string name="lunes5" translatable="false">PESO: Corporal</string>
     <string name="lunes6" translatable="false">PESO DE: 10</string>
     <string name="lunes7" translatable="false">PESO DE: 15 y 10</string>
+
+    <string name="martes1" translatable="false">PESO DE: 40</string>
+    <string name="martes2" translatable="false">PESO DE: 20</string>
+    <string name="martes3" translatable="false">PESO DE: 30</string>
+    <string name="martes4" translatable="false">PESO DE: Corporal</string>
+    <string name="martes5" translatable="false">PESO DE: 50</string>
+    <string name="martes6" translatable="false">PESO DE: 20</string>
+
+
+
 </resources>

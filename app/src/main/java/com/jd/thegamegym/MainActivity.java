@@ -2,6 +2,7 @@ package com.jd.thegamegym;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             btnLunes.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    entradaAlSitema();
+                    entradaAlSitema(getApplicationContext(),WeekDays.class);
                 }
             });
             // Martes
@@ -34,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
             btnMartes.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    entradaAlSitema();
+                    entradaAlSitema(getApplicationContext(),WeekDayTuesday.class);
                 }
             });
             // Miercoles
-            btnMiercoles = findViewById(R.id.btnMiercoles);
+            /*btnMiercoles = findViewById(R.id.btnMiercoles);
             btnMiercoles.setText(dias[2].toString());
             btnMiercoles.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -65,12 +66,12 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     entradaAlSitema();
                 }
-            });
+            });*/
             }
 
-    private void entradaAlSitema() {
+    private void entradaAlSitema(Context from, Class to) {
         Toast.makeText(getApplicationContext(),"Dias de la semana: "+dias.length,Toast.LENGTH_LONG).show();
-        Intent i = new Intent(getApplicationContext(),WeekDays.class);
-        startActivity(i);
+        Intent intentDynamic = new Intent(from,to);
+        startActivity(intentDynamic);
     }
 }

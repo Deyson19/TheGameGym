@@ -21,18 +21,6 @@ public class WeekDays extends AppCompatActivity {
     ArrayList<DataModel> list;
     AdapterList adapterList;
 
-    int value [] = {3500,4000,3500,2500,2000,1500,5500,3500};
-    String unityCost = "Por tan solo: \n";
-    String coin = " COP";
-    //String  aguacate,mango,manzana,papaya,guayaba,banano,sandia,pera;
-    String aguacate = unityCost + value[0] +coin;
-    String mango = unityCost + value[1] +coin;
-    String manzana = unityCost + value[2]+coin;
-    String papaya = unityCost + value[3]+coin;
-    String guayaba = unityCost + value[4]+coin;
-    String banano = unityCost + value[5]+coin;
-    String sandia = unityCost + value[6]+coin;
-    String pera = unityCost + value[7]+coin;
 
     String ejerciciosLunes [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
     String ejerciciosMartes [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
