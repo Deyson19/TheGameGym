@@ -1,64 +1,43 @@
 package com.jd.thegamegym;
 
 public class DataModel {
-    String ejercicio,peso;
-    int series, resps;
-    private int images;
 
     private String title;
     private int description;
-    private String value;
-    //private int images;
+    private String value,reps;
+    private int images;
 
-    public DataModel(String title,int description, String value, int images){
+    public DataModel(){
+
+    }
+    public DataModel(String title,int description, String value,String reps, int images){
         this.title = title;
         this.description = description;
+        this.reps = reps;
         this.value = value;
         this.images = images;
     }
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     }
 
-    public int getDescription(){
+    public int getDescription() {
         return description;
     }
-
-    public int getImages(){
-        return images;
+    public int setDescription(){
+        return description;
     }
 
     public String getValue() {
         return value;
     }
 
-//    public DataModel(String ejercicio, String peso, int series, int resps, int images) {
-//        this.ejercicio = ejercicio;
-//        this.peso = peso;
-//        this.series = series;
-//        this.resps = resps;
-//        this.images = images;
-//    }
-
-    public String getEjercicio() {
-        return ejercicio;
+    public String getReps() {
+        return reps;
     }
 
-    public String getPeso() {
-        return peso;
+    public int getImages() {
+        return images;
     }
-
-    public int getSeries() {
-        return series;
-    }
-
-    public int getResps() {
-        return resps;
-    }
-
-//    public int getImages() {
-//        return images;
-//    }
-
-
 }

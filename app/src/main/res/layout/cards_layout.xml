@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="6dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="2dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
-        app:contentPadding="6dp"
+        app:cardCornerRadius="60dp"
+        app:contentPadding="1dp"
         android:layout_margin="3dp"
         android:focusable="true"
         android:scrollbars="vertical">
@@ -17,61 +18,89 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FFEE58"
+            android:background="#EFDB2C"
             android:padding="5dp">
 
-            <ImageView
-                android:id="@+id/image"
-                android:layout_width="120dp"
-                android:layout_height="250dp"
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:id="@+id/imageRutina"
+                app:civ_border_color="#0B0A00"
+                app:civ_border_width="2dp"
+                android:layout_marginTop="20dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="6dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/eclair"
+                android:layout_gravity="center"
+                app:civ_shadow_color="#3f51b5"
                 android:layout_alignParentLeft="true" />
 
+
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/titleEjercicio"
                 android:layout_width="243dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="130dp"
-                android:layout_marginLeft="130dp"
+                android:layout_marginStart="80dp"
                 android:layout_marginTop="5dp"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Title"
+                android:text="Ejercicio"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="80dp"
+                android:gravity="center_horizontal" />
 
             <TextView
-                android:id="@+id/description"
+                android:id="@+id/seriesEjercicio"
                 android:layout_width="243dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="130dp"
-                android:layout_marginLeft="130dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="50dp"
                 android:fontFamily="serif"
-                android:text="Description"
+                android:layout_below="@id/title"
+                android:text="Series"
                 android:textColor="#EF5350"
-                android:textSize="16sp" />
+                android:textSize="18sp"
+                android:layout_marginLeft="155dp"
+                tools:ignore="UnknownId" />
+            <TextView
+                android:id="@+id/repeEjercicio"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="serif"
+                android:layout_below="@id/seriesEjercicio"
+                android:text="Repeticiones"
+                android:textColor="#EF5350"
+                android:textSize="18sp"
+                android:layout_marginLeft="155dp" />
 
             <TextView
-                android:id="@+id/value"
+                android:id="@+id/pesoEjercicio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="200dp"
-                android:text="Value: "
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="170dp"
+                android:layout_below="@id/image"
+                android:text="Peso: "
                 android:textSize="18sp"
                 android:textAlignment="center"
                 android:textStyle="bold"
-                android:textColor="#26A69A" />
+                android:textColor="#EF9106"
+                android:layout_marginLeft="8dp"
+                tools:ignore="UnknownId"
+                android:gravity="center_horizontal" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

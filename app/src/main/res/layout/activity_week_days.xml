@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#26A69A"
+    android:background="#8BC34A"
     tools:context=".WeekDays">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@color/white"
+        android:divider="@color/black"
         android:scrollbars="none"
-        android:padding="6dp"
+        android:padding="1dp"
         android:id="@+id/list_view"/>
     <!--proyecto finalizado con exito-->
 </RelativeLayout>

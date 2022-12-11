@@ -41,34 +41,17 @@ public class AdapterList extends BaseAdapter {
 
         view = LayoutInflater.from(context).inflate(R.layout.cards_layout,parent,false);
 
-        TextView title = view.findViewById(R.id.title);
-        TextView description = view.findViewById(R.id.description);
-        TextView value = view.findViewById(R.id.value);
-        ImageView image = view.findViewById(R.id.image);
+        TextView ejercicio = view.findViewById(R.id.titleEjercicio);
+        TextView series = view.findViewById(R.id.seriesEjercicio);
+        TextView repeticiones = view.findViewById(R.id.repeEjercicio);
+        TextView peso = view.findViewById(R.id.pesoEjercicio);
+        ImageView image = view.findViewById(R.id.imageRutina);
 
-        title.setText(listPojos.get(position).getTitle());
-        description.setText(listPojos.get(position).getDescription());
-        value.setText(listPojos.get(position).getValue());
+        ejercicio.setText(listPojos.get(position).getTitle());
+        series.setText(listPojos.get(position).getDescription());
+        repeticiones.setText(listPojos.get(position).getReps());
+        peso.setText(listPojos.get(position).getValue());
         image.setImageResource(listPojos.get(position).getImages());
-
-
-         /*
-        TextView ejercicio,series,reps,peso;
-        ImageView image = view.findViewById(R.id.idIVCourseImage);
-
-        ejercicio = view.findViewById(R.id.idNombreEjercicio);
-        ejercicio.setText(listPojos.get(position).getEjercicio());
-
-        series = view.findViewById(R.id.idSeries);
-        series.setText(listPojos.get(position).getSeries());
-
-        reps = view.findViewById(R.id.idReps);
-        reps.setText(listPojos.get(position).getResps());
-
-        peso = view.findViewById(R.id.idPeso);
-        peso.setText(listPojos.get(position).getPeso().toLowerCase());
-
-        image.setImageResource(listPojos.get(position).getImages());*/
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 public class WeekDays extends AppCompatActivity {
 
@@ -63,18 +64,61 @@ public class WeekDays extends AppCompatActivity {
 
     private void listShow() {
         list = new ArrayList<DataModel>();
-        //DataModel peso = new DataModel();
-        String value;
+        String series,reps;
+        int pesoE = R.string.lunes;
+        int seriesTotal =0;
+        int repeticionesTotal =0;
+        int imagenDia =0;
+        series = "Series: ".toUpperCase();
+        reps = "Repeticiones: ".toUpperCase();
+        int dia = R.string.lunes;
+        for (int i=0;i<ejerciciosLunes.length;i++){
+            if (i<=4){
+                seriesTotal = 3;
+            }else{
+                seriesTotal = 4;
+            }
+            switch (i){
+                case 0:
+                    repeticionesTotal = 5;
+                    pesoE = R.string.lunes1;
+                    imagenDia = R.drawable.pressbanca;
+                    break;
+                case 1:
+                    repeticionesTotal = 5;
+                    pesoE = R.string.lunes2;
+                    imagenDia = R.drawable.lunes;
+                    break;
+                case 2:
+                    repeticionesTotal = 10;
+                    pesoE = R.string.lunes3;
+                    imagenDia = R.drawable.pressmilitar;
+                    break;
+                case 3:
+                    repeticionesTotal = 5;
+                    pesoE = R.string.lunes4;
+                    imagenDia = R.drawable.dominadas;
+                    break;
+                case 4:
+                    repeticionesTotal = 15;
+                    pesoE = R.string.lunes5;
+                    imagenDia = R.drawable.fondos;
+                    break;
+                case 5:
+                    repeticionesTotal = 10;
+                    pesoE = R.string.lunes6;
+                    imagenDia = R.drawable.curlbarra;
+                    break;
+                case 6:
+                    repeticionesTotal = 10;
+                    pesoE = R.string.lunes7;
+                    imagenDia = R.drawable.pressfrances;
+                    break;
+            }
+            list.add(new DataModel(ejerciciosLunes[i],pesoE, series +Integer.toString(seriesTotal),reps+Integer.toString(repeticionesTotal), imagenDia));
+        }
 
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        list.add(new DataModel("Aguacate",R.string.aguacate, aguacate, R.drawable.cupcake));
-        //list.add(new DataModel(ejerciciosViernes[0],"89", 4,5, R.drawable.viernes));
+
 
 
     }

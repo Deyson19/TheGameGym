@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="description" type="id" />
-    <item name="title" type="id" />
-    <item name="image" type="id" />
-    <item name="value" type="id" />
+    <item name="seriesDelEjercicio" type="id" />
+    <item name="repeticionesDelEjercicio" type="id" />
+    <item name="ejercicioNombre" type="id" />
+    <item name="imageEjercicio" type="id" />
+    <item name="pesoDelEjercicio" type="id" />
 </resources>

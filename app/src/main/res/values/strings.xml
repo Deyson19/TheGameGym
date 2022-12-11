@@ -1,11 +1,19 @@
 <resources>
     <string name="app_name">TheGameGym</string>
-        <string name="banano" translatable="false">Es un fruto comestible, botánicamente una baya, de varios tipos de grandes plantas herbáceas del género Musa...</string>
-        <string name="manzana" translatable="false">La manzana es una fruta pomácea de forma redonda y sabor más o menos dulce, dependiendo de la variedad...</string>
-        <string name="pera" translatable="false">Se denomina pera al fruto de distintas especies del género Pyrus, integrado por árboles caducifolios conocidos comúnmente como perales...</string>
-        <string name="mango" translatable="false">El mango es el nombre de las frutas de varias especies de árboles del género Mangifera, especialmente de Mangifera indica, y sus numerosos cultivares...</string>
-        <string name="sandia" translatable="false">Citrullus lanatus, comúnmente llamada sandía es una especie de la familia Cucurbitaceae originaria de África, pero tiene una gran presencia y difusión en Asia...</string>
-        <string name="papaya" translatable="false">Carica papaya es una especie de planta arbustiva del género Carica en la familia Caricaceae...</string>
-        <string name="guagaya" translatable="false">Las guayabas son un género de unas cien especies de árboles tropicales y árboles pequeños en la familia Myrtaceae, nativas de América...</string>
-        <string name="aguacate" translatable="false">Persea americana, llamado popularmente aguacate, es una especie arbórea del género Persea perteneciente a la familia Lauraceae, cuyo fruto, el aguacate es una baya comestible...</string>
+        <string name="banano" translatable="false">Es un fruto comestible</string>
+        <string name="manzana" translatable="false">La manzana es una fruta</string>
+        <string name="pera" translatable="false">Se denomina pera al fruto </string>
+        <string name="mango" translatable="false">El mango es el nombre de </string>
+        <string name="sandia" translatable="false">Citrullus lanatus, comúnmente</string>
+        <string name="papaya" translatable="false">Carica papaya es una especie</string>
+        <string name="guagaya" translatable="false">Las guayabas son un género </string>
+        <string name="aguacate" translatable="false">Persea americana, llamado </string>
+    <string name="lunes" translatable="false">PESO DE: 6</string>
+    <string name="lunes1" translatable="false">PESO DE: 35 y 22.5</string>
+    <string name="lunes2" translatable="false">PESO DE: 30 y 25</string>
+    <string name="lunes3" translatable="false">PESO DE: 10 y 5</string>
+    <string name="lunes4" translatable="false">PESO DE: Corporal</string>
+    <string name="lunes5" translatable="false">PESO DE: Corporal</string>
+    <string name="lunes6" translatable="false">PESO DE: 10</string>
+    <string name="lunes7" translatable="false">PESO DE: 15 y 10</string>
 </resources>
