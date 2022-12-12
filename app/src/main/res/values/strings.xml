@@ -24,6 +24,16 @@
     <string name="martes5" translatable="false">PESO DE: 50</string>
     <string name="martes6" translatable="false">PESO DE: 20</string>
 
+    <string name="miercoles1" translatable="false">PESO DE: 12.5 y 7.5</string>
+    <string name="miercoles2" translatable="false">PESO : Mancuernas de 4 grises</string>
+    <string name="miercoles3" translatable="false">PESO : Peso Libre</string>
+    <string name="miercoles4" translatable="false">PESO DE: 100 y 70</string>
+    <string name="miercoles5" translatable="false">PESO DE: 120 y 110</string>
+    <string name="miercoles6" translatable="false">PESO : M de 4 y de 3 grises</string>
+    <string name="miercoles7" translatable="false">PESO DE: 20 y 10</string>
+    <string name="miercoles8" translatable="false">PESO DE: 40</string>
+
+
 
 
 </resources>

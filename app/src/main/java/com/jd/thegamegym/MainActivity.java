@@ -39,17 +39,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             // Miercoles
-            /*btnMiercoles = findViewById(R.id.btnMiercoles);
+            btnMiercoles = findViewById(R.id.btnMiercoles);
             btnMiercoles.setText(dias[2].toString());
             btnMiercoles.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    entradaAlSitema();
+                    entradaAlSitema(getApplicationContext(),WeekDayWednesday.class);
 
                 }
             });
             // Jueves
-            btnJueves = findViewById(R.id.btnJueves);
+            /*btnJueves = findViewById(R.id.btnJueves);
             btnJueves.setText(dias[3].toString());
             btnJueves.setOnClickListener(new View.OnClickListener() {
                 @Override

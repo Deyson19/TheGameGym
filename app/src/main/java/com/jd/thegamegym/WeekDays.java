@@ -23,9 +23,6 @@ public class WeekDays extends AppCompatActivity {
 
 
     String ejerciciosLunes [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
-    String ejerciciosMartes [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
-    String ejerciciosMiercoles [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
-    String ejerciciosJueves [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
     String ejerciciosViernes [] = {
             "PRESS CON MANCUERNAS",
             "PRESS DECLINADO",
