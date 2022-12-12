@@ -40,5 +40,14 @@
     <string name = "jueves5" translatable = "false" > PESO DE: Corporal </string>
     <string name = "jueves6" translatable = "false" > PESO DE: 20 </string>
 
+    <string name="viernes1" translatable="false">PESO DE: MP 3 y M3 grises</string>
+    <string name="viernes2" translatable="false">PESO DE: 30 20</string>
+    <string name="viernes3" translatable="false">PESO DE: 15 10</string>
+    <string name="viernes4" translatable="false">PESO DE: 110 110</string>
+    <string name="viernes5" translatable="false">PESO DE: M3</string>
+    <string name="viernes6" translatable="false">PESO DE: 15 y 10</string>
+    <string name="viernes7" translatable="false">PESO DE: 5 y 5</string>
+    <string name="viernes8" translatable="false">PESO DE: 50 y 50</string>
+
 
 </resources>
