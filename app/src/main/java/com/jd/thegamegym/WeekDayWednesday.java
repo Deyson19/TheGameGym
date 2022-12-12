@@ -29,6 +29,7 @@ public class WeekDayWednesday extends AppCompatActivity {
         setContentView(R.layout.activity_week_day_wednesday);
 
         listView = findViewById(R.id.list_view_wednesday);
+        listView.setBackgroundResource(R.drawable.miercoles);
         listShow();
 
         adapterList = new AdapterList(this,list);

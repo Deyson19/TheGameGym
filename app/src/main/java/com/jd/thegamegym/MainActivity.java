@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     String dias[] ={"Lunes","Martes","Miercoles","Jueves","Viernes"};
 
+    Toast myToast;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

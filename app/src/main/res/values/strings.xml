@@ -26,10 +26,10 @@
 
     <string name="miercoles1" translatable="false">PESO DE: 12.5 y 7.5</string>
     <string name="miercoles2" translatable="false">PESO : Mancuernas de 4 grises</string>
-    <string name="miercoles3" translatable="false">PESO : Peso Libre</string>
+    <string name="miercoles3" translatable="false">PESO : Peso Corporal</string>
     <string name="miercoles4" translatable="false">PESO DE: 100 y 70</string>
     <string name="miercoles5" translatable="false">PESO DE: 120 y 110</string>
-    <string name="miercoles6" translatable="false">PESO :M4 y de 3 grises</string>
+    <string name="miercoles6" translatable="false">PESO : M4 y de 3 grises</string>
     <string name="miercoles7" translatable="false">PESO DE: 20 y 10</string>
     <string name="miercoles8" translatable="false">PESO DE: 40</string>
 
@@ -37,14 +37,14 @@
     <string name="jueves2" translatable="false"> PESO DE: 30 </string>
     <string name="jueves3" translatable="false"> PESO DE: 70 </string>
     <string name="jueves4" translatable="false"> PESO DE: 90 </string>
-    <string name="jueves5" translatable="false"> PESO DE: Corporal </string>
+    <string name="jueves5" translatable="false"> PESO : Corporal </string>
     <string name="jueves6" translatable="false"> PESO DE: 20 </string>
 
     <string name="viernes1" translatable="false">PESO DE: MP 3 y M3 grises</string>
-    <string name="viernes2" translatable="false">PESO DE: 30 20</string>
-    <string name="viernes3" translatable="false">PESO DE: 15 10</string>
-    <string name="viernes4" translatable="false">PESO DE: 110 110</string>
-    <string name="viernes5" translatable="false">PESO DE: M3</string>
+    <string name="viernes2" translatable="false">PESO DE: 30 y 20</string>
+    <string name="viernes3" translatable="false">PESO DE: 15 y 10</string>
+    <string name="viernes4" translatable="false">PESO DE: 110 y 110</string>
+    <string name="viernes5" translatable="false">PESO DE: Mancuernas de 3</string>
     <string name="viernes6" translatable="false">PESO DE: 15 y 10</string>
     <string name="viernes7" translatable="false">PESO DE: 5 y 5</string>
     <string name="viernes8" translatable="false">PESO DE: 50 y 50</string>

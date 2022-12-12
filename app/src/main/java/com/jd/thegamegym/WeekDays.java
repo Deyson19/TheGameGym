@@ -41,6 +41,7 @@ public class WeekDays extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"Welcome to the WeekDays", Toast.LENGTH_LONG).show();
 
         listView = findViewById(R.id.list_view);
+        listView.setBackgroundResource(R.drawable.lunes);
         listShow();
 
         adapterList = new AdapterList(this,list);
