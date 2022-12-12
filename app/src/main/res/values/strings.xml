@@ -33,12 +33,12 @@
     <string name="miercoles7" translatable="false">PESO DE: 20 y 10</string>
     <string name="miercoles8" translatable="false">PESO DE: 40</string>
 
-    <string name = "jueves1" translatable = "false" > PESO DE: 40 </string>
-    <string name = "jueves2" translatable = "false" > PESO DE: 30 </string>
-    <string name = "jueves3" translatable = "false" > PESO DE: 70 </string>
-    <string name = "jueves4" translatable = "false" > PESO DE: 90 </string>
-    <string name = "jueves5" translatable = "false" > PESO DE: Corporal </string>
-    <string name = "jueves6" translatable = "false" > PESO DE: 20 </string>
+    <string name="jueves1" translatable="false"> PESO DE: 40 </string>
+    <string name="jueves2" translatable="false"> PESO DE: 30 </string>
+    <string name="jueves3" translatable="false"> PESO DE: 70 </string>
+    <string name="jueves4" translatable="false"> PESO DE: 90 </string>
+    <string name="jueves5" translatable="false"> PESO DE: Corporal </string>
+    <string name="jueves6" translatable="false"> PESO DE: 20 </string>
 
     <string name="viernes1" translatable="false">PESO DE: MP 3 y M3 grises</string>
     <string name="viernes2" translatable="false">PESO DE: 30 20</string>
