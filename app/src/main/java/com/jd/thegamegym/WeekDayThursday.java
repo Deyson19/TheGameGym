@@ -80,7 +80,7 @@ public class WeekDayThursday extends AppCompatActivity {
                     imagenDia = R.drawable.sentadillabulgara;
                     break;
                 case 5:
-                    repeticionesTotal = 20;
+                    repeticionesTotal = 10;
                     pesoE = R.string.jueves6;
                     imagenDia = R.drawable.elevacionestalon;
                     break;

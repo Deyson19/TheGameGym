@@ -1,19 +1,11 @@
 package com.jd.thegamegym;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.DefaultItemAnimator;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class WeekDays extends AppCompatActivity {
 
@@ -21,24 +13,12 @@ public class WeekDays extends AppCompatActivity {
     ArrayList<DataModel> list;
     AdapterList adapterList;
 
+    String[] ejerciciosLunes = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
 
-    String ejerciciosLunes [] = {"PRESS DE BANCA", "REMO CON BARRA", "PRESS MILITAR", "DOMINADAS", "PARALELAS (FONDOS)", "CURL CON BARRA", "PRESS FRANCES"};
-    String ejerciciosViernes [] = {
-            "PRESS CON MANCUERNAS",
-            "PRESS DECLINADO",
-            "PRESS INCLINADO",
-            "APERTURAS EN MAQUINA",
-            "CURL CON MANCUERNA",
-            "PRESS FRANCES",
-            "CURL ARAÑA CON BARRA",
-            "EXTENSION DE TRICEPS LASO"
-    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_week_days);
-
-        Toast.makeText(getApplicationContext(),"Welcome to the WeekDays", Toast.LENGTH_LONG).show();
 
         listView = findViewById(R.id.list_view);
         listView.setBackgroundResource(R.drawable.lunes);
@@ -46,18 +26,19 @@ public class WeekDays extends AppCompatActivity {
 
         adapterList = new AdapterList(this,list);
         listView.setAdapter(adapterList);
+
     }
 
+
     private void listShow() {
-        list = new ArrayList<DataModel>();
+        list = new ArrayList<>();
         String series,reps;
         int pesoE = R.string.lunes;
-        int seriesTotal =0;
+        int seriesTotal;
         int repeticionesTotal =0;
         int imagenDia =0;
         series = "Series: ".toUpperCase();
         reps = "Repeticiones: ".toUpperCase();
-        int dia = R.string.lunes;
         for (int i=0;i<ejerciciosLunes.length;i++){
             if (i<=4){
                 seriesTotal = 3;
@@ -101,7 +82,7 @@ public class WeekDays extends AppCompatActivity {
                     imagenDia = R.drawable.pressfrances;
                     break;
             }
-            list.add(new DataModel(ejerciciosLunes[i],pesoE, series +Integer.toString(seriesTotal),reps+Integer.toString(repeticionesTotal), imagenDia));
+            list.add(new DataModel(ejerciciosLunes[i],pesoE, series + seriesTotal,reps+ repeticionesTotal, imagenDia));
         }
 
 

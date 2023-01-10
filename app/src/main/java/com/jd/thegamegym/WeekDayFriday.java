@@ -1,10 +1,9 @@
 package com.jd.thegamegym;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.os.Bundle;
 import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
@@ -24,7 +23,7 @@ public class WeekDayFriday extends AppCompatActivity {
             "CURL ARAÑA CON BARRA",
             "EXTENSION DE TRICEPS LASO"
     };
-    private Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,10 +38,10 @@ public class WeekDayFriday extends AppCompatActivity {
     }
 
     private void listShow() {
-        list = new ArrayList<DataModel>();
+        list = new ArrayList<>();
         String series,reps;
         int pesoE = R.string.lunes;
-        int seriesTotal =0;
+        int seriesTotal;
         int repeticionesTotal =0;
         int imagenDia =0;
         series = "Series: ".toUpperCase();
@@ -96,7 +95,7 @@ public class WeekDayFriday extends AppCompatActivity {
                     imagenDia = R.drawable.extecionestriceps;
                     break;
             }
-            list.add(new DataModel(ejerciciosViernes[i],pesoE, series +Integer.toString(seriesTotal),reps+Integer.toString(repeticionesTotal), imagenDia));
+            list.add(new DataModel(ejerciciosViernes[i],pesoE, series + seriesTotal,reps+ repeticionesTotal, imagenDia));
         }
     }
 }

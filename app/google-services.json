@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "873074016038",
+    "project_id": "thegamegym-9875b",
+    "storage_bucket": "thegamegym-9875b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873074016038:android:447344d825bb001fafcbe7",
+        "android_client_info": {
+          "package_name": "com.jd.thegamegym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873074016038-o99bmt2rgqlkba1uiid27i2q8e9mnck1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jd.thegamegym",
+            "certificate_hash": "2a2a086cb2a09e48e76b5e2caa412828678dcdb4"
+          }
+        },
+        {
+          "client_id": "873074016038-22kh469c89hpp5im8hhaurak4bau8go0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGbrkD1ZRsk2RUWis1UqsFm5Bkx-YZB7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873074016038-22kh469c89hpp5im8hhaurak4bau8go0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

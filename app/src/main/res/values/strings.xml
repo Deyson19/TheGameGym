@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">TheGameGym</string>
-    <string name="banano" translatable="false">Es un fruto comestible</string>
-    <string name="manzana" translatable="false">La manzana es una fruta</string>
-    <string name="pera" translatable="false">Se denomina pera al fruto </string>
-    <string name="mango" translatable="false">El mango es el nombre de </string>
-    <string name="sandia" translatable="false">Citrullus lanatus, comúnmente</string>
-    <string name="papaya" translatable="false">Carica papaya es una especie</string>
-    <string name="guagaya" translatable="false">Las guayabas son un género </string>
-    <string name="aguacate" translatable="false">Persea americana, llamado </string>
+
     <string name="lunes" translatable="false">PESO DE: 6</string>
     <string name="lunes1" translatable="false">PESO DE: 35 y 22.5</string>
     <string name="lunes2" translatable="false">PESO DE: 30 y 25</string>
@@ -20,34 +13,40 @@
     <string name="martes1" translatable="false">PESO DE: 40</string>
     <string name="martes2" translatable="false">PESO DE: 20</string>
     <string name="martes3" translatable="false">PESO DE: 30</string>
-    <string name="martes4" translatable="false">PESO DE: Corporal</string>
+    <string name="martes4" translatable="false">PESO: Corporal</string>
     <string name="martes5" translatable="false">PESO DE: 50</string>
     <string name="martes6" translatable="false">PESO DE: 20</string>
 
-    <string name="miercoles1" translatable="false">PESO DE: 12.5 y 7.5</string>
-    <string name="miercoles2" translatable="false">PESO : Mancuernas de 4 grises</string>
-    <string name="miercoles3" translatable="false">PESO : Peso Corporal</string>
+    <string name="miercoles1" translatable="false">PESO DE: 15 y 10</string>
+    <string name="miercoles2" translatable="false">PESO: Mancuernas de 4 grises</string>
+    <string name="miercoles3" translatable="false">PESO: Peso Corporal</string>
     <string name="miercoles4" translatable="false">PESO DE: 100 y 70</string>
     <string name="miercoles5" translatable="false">PESO DE: 120 y 110</string>
-    <string name="miercoles6" translatable="false">PESO : M4 y de 3 grises</string>
+    <string name="miercoles6" translatable="false">PESO: M4 y de 3 grises</string>
     <string name="miercoles7" translatable="false">PESO DE: 20 y 10</string>
     <string name="miercoles8" translatable="false">PESO DE: 40</string>
 
     <string name="jueves1" translatable="false"> PESO DE: 40 </string>
     <string name="jueves2" translatable="false"> PESO DE: 30 </string>
     <string name="jueves3" translatable="false"> PESO DE: 70 </string>
-    <string name="jueves4" translatable="false"> PESO DE: 90 </string>
-    <string name="jueves5" translatable="false"> PESO : Corporal </string>
-    <string name="jueves6" translatable="false"> PESO DE: 20 </string>
+    <string name="jueves4" translatable="false"> PESO DE: 90 y 80</string>
+    <string name="jueves5" translatable="false"> PESO:Corporal </string>
+    <string name="jueves6" translatable="false"> PESO DE: 25 </string>
 
     <string name="viernes1" translatable="false">PESO DE: MP 3 y M3 grises</string>
     <string name="viernes2" translatable="false">PESO DE: 30 y 20</string>
-    <string name="viernes3" translatable="false">PESO DE: 15 y 10</string>
-    <string name="viernes4" translatable="false">PESO DE: 110 y 110</string>
+    <string name="viernes3" translatable="false">PESO DE: 15 y 10/12.5</string>
+    <string name="viernes4" translatable="false">PESO DE: 110 y 100</string>
     <string name="viernes5" translatable="false">PESO DE: Mancuernas de 3</string>
     <string name="viernes6" translatable="false">PESO DE: 15 y 10</string>
-    <string name="viernes7" translatable="false">PESO DE: 5 y 5</string>
-    <string name="viernes8" translatable="false">PESO DE: 50 y 50</string>
+    <string name="viernes7" translatable="false">PESO DE: 5</string>
+    <string name="viernes8" translatable="false">PESO DE: 50 </string>
+    <string name="ejercicio">Ejercicio</string>
+    <string name="series">Series</string>
+    <string name="repeticiones">Repeticiones</string>
+    <string name="peso">Peso:</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="salir">Salir</string>
 
 
 </resources>

@@ -28,7 +28,6 @@ public class WeekDayTuesday extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_week_day_tuesday);
 
-        Toast.makeText(getApplicationContext(),"Welcome to the LegsDay", Toast.LENGTH_LONG).show();
 
         listView = findViewById(R.id.list_view_tuesday);
         listView.setBackgroundResource(R.drawable.martes);
@@ -47,7 +46,6 @@ public class WeekDayTuesday extends AppCompatActivity {
         int imagenDia =0;
         series = "Series: ".toUpperCase();
         reps = "Repeticiones: ".toUpperCase();
-        int dia = R.string.lunes;
         for (int i=0;i<ejerciciosMartes.length;i++){
             switch (i){
                 case 0:
