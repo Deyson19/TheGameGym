@@ -9,8 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class AdapterList extends BaseAdapter {
@@ -53,12 +51,7 @@ public class AdapterList extends BaseAdapter {
         peso.setText(listPojos.get(position).getValue());
         image.setImageResource(listPojos.get(position).getImages());
 
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(context,R.string.app_name,Toast.LENGTH_LONG).show();
-            }
-        });
+        view.setOnClickListener(view1 -> Toast.makeText(context,"Ejercicio: "+position,Toast.LENGTH_LONG).show());
         return view;
     }
 }

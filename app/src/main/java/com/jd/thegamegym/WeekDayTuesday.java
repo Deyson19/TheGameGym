@@ -28,7 +28,6 @@ public class WeekDayTuesday extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_week_day_tuesday);
 
-        Toast.makeText(getApplicationContext(),"Welcome to the LegsDay", Toast.LENGTH_LONG).show();
 
         listView = findViewById(R.id.list_view_tuesday);
         listView.setBackgroundResource(R.drawable.martes);

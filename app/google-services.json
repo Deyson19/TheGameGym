@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "873074016038-98722mbnvthcs385plms53p51vc92g25.apps.googleusercontent.com",
+          "client_id": "873074016038-o99bmt2rgqlkba1uiid27i2q8e9mnck1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.jd.thegamegym",
-            "certificate_hash": "f093dcac0fbce30aa64d9c4a13d921149d90b9a3"
+            "certificate_hash": "2a2a086cb2a09e48e76b5e2caa412828678dcdb4"
           }
         },
         {
