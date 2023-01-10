@@ -47,7 +47,6 @@ public class WeekDayTuesday extends AppCompatActivity {
         int imagenDia =0;
         series = "Series: ".toUpperCase();
         reps = "Repeticiones: ".toUpperCase();
-        int dia = R.string.lunes;
         for (int i=0;i<ejerciciosMartes.length;i++){
             switch (i){
                 case 0:

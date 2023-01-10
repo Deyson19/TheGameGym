@@ -96,7 +96,7 @@ public class WeekDayFriday extends AppCompatActivity {
                     imagenDia = R.drawable.extecionestriceps;
                     break;
             }
-            list.add(new DataModel(ejerciciosViernes[i],pesoE, series +Integer.toString(seriesTotal),reps+Integer.toString(repeticionesTotal), imagenDia));
+            list.add(new DataModel(ejerciciosViernes[i],pesoE, series + seriesTotal,reps+Integer.toString(repeticionesTotal), imagenDia));
         }
     }
 }

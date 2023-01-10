@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
     private void entradaAlSitema(Context from, Class to) {
-        Toast.makeText(getApplicationContext(),"Dias de la semana: "+dias.length,Toast.LENGTH_LONG).show();
         Intent intentDynamic = new Intent(from,to);
         startActivity(intentDynamic);
     }

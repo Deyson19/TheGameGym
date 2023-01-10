@@ -56,7 +56,7 @@ public class AdapterList extends BaseAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context,"Position "+position,Toast.LENGTH_LONG).show();
+                Toast.makeText(context,R.string.app_name,Toast.LENGTH_LONG).show();
             }
         });
         return view;

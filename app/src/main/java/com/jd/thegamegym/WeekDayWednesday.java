@@ -40,12 +40,11 @@ public class WeekDayWednesday extends AppCompatActivity {
         list = new ArrayList<DataModel>();
         String series,reps;
         int pesoE = R.string.lunes;
-        int seriesTotal =0;
+        int seriesTotal;
         int repeticionesTotal =0;
         int imagenDia =0;
         series = "Series: ".toUpperCase();
         reps = "Repeticiones: ".toUpperCase();
-        int dia = R.string.lunes;
 
         for (int i=0;i<ejerciciosMiercoles.length;i++){
             if (i<=5){
@@ -95,7 +94,7 @@ public class WeekDayWednesday extends AppCompatActivity {
                     imagenDia = R.drawable.elevacionesfrontales;
                     break;
             }
-            list.add(new DataModel(ejerciciosMiercoles[i],pesoE, series +Integer.toString(seriesTotal),reps+Integer.toString(repeticionesTotal), imagenDia));
+            list.add(new DataModel(ejerciciosMiercoles[i],pesoE, series + seriesTotal,reps+Integer.toString(repeticionesTotal), imagenDia));
         }
     }
 }
